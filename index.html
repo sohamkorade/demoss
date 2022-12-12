@@ -41,6 +41,9 @@
 			<div class="item">
 				<button class="ui button" onclick="codeEditor.execCommand('redo')">Redo</button>
 			</div>
+			<div class="item">
+				<button class="ui button" onclick="navigator.clipboard.writeText(codeEditor.getValue())">Copy</button>
+			</div>
 		</div>
 	</div>
 	<div class="ui three column stackable grid">
